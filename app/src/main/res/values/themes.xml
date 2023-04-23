@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AromaBox" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+<!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="RadioButtonStyle" parent="Theme.AppCompat.DayNight">
+        <item name="colorAccent">@color/green</item>
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+    </style>
+
+    <style name = "toolbar">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="allText">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="textBig">
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="backArrow">
+        <item name="android:width">18dp</item>
+        <item name="android:height">18dp</item>
+        <item name="android:src">@drawable/back_icon</item>
+    </style>
+    <style name="button">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_shape</item>
+    </style>
+</resources>

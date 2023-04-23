@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="vertical"
+        android:background="@color/green"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="70dp"
+            android:src="@drawable/boxfarming_green_logo"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:counterEnabled="true"
+            app:errorEnabled="true"
+            app:counterMaxLength="10"
+            app:startIconDrawable="@drawable/user_icon"
+            app:prefixTextColor="@color/green"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeColor="@color/green"
+            app:hintTextColor="@color/green"
+            android:hint="@string/userIdHint">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/number"
+                android:ems="10"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:includeFontPadding="false"
+                android:inputType="phone"
+                android:maxLength="10" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:counterEnabled="true"
+            app:errorEnabled="true"
+            app:counterMaxLength="10"
+            app:startIconDrawable="@drawable/password_icon"
+            app:prefixTextColor="@color/green"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeColor="@color/green"
+            app:passwordToggleEnabled="true"
+            app:hintTextColor="@color/green"
+            android:hint="@string/passwordHint">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:includeFontPadding="false"
+                android:inputType="textPassword"
+                android:maxLength="10" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:text="@string/loginBtn"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            style="@style/button"
+            android:fontFamily="@font/roboto_bold" />
+
+    </LinearLayout>
+</LinearLayout>

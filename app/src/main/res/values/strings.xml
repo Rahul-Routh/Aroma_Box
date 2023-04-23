@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Aroma Box</string>
+    <string name="appNameHindi">अरोमा बॉक्स</string>
+    <string name="version">Version : %s</string>
+
+    <string name="alphabet">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="number">0123456789</string>
+
+    <!--    hindi-->
+    <string name="farmersList">ककिसानों की सूची</string>
+    <string name="commercial">कमर्शिअल</string>
+    <string name="notification">सूचनाएं</string>
+    <string name="procession">प्रोसेसिंग</string>
+    <string name="totalFarmer">कुल किसान: </string>
+    <string name="areaOFCultivation">कुल कृषि क्षेत्र: </string>
+    <string name="payment">भुगतान</string>
+    <string name="dateRange">खोजने के लिए अपनी तिथि सीमा चुनें।</string>
+    <string name="search">खोजे</string>
+    <string name="totalAmount">कुल:-</string>
+    <string name="name">नाम:</string>
+    <string name="notificationNumber">नोटिफिकेशन नंबर:</string>
+    <string name="date">दिनांक:</string>
+    <string name="cultivationArea">कृषि क्षेत्र:</string>
+    <string name="farmerCount">कुल किसान:</string>
+    <string name="totalCultivationArea"> कुल खेती क्षेत्र =</string>
+    <string name="totalCultivationArea2">कुल खेती क्षेत्र:</string>
+    <string name="farmingArea">खेती क्षेत्र</string>
+    <string name="totalCultivationAreaSubmit">सबमिट करें</string>
+    <string name="procurement">प्रोक्योरमेंट</string>
+    <string name="procurement2">बायो मास्स वेइटिंग</string>
+    <string name="distillation">डिस्टिलेशन</string>
+    <string name="qrScanner">क्यूआर स्कैनर</string>
+    <string name="clickHere">यहाँ क्लिक करें</string>
+    <string name="enterFarmerId">किसान संख्या दर्ज करें</string>
+    <string name="newBatch">नया बैच बनाएं</string>
+    <string name="exitingBatch">वर्तमान चल रहा बैच</string>
+    <string name="startDate">प्रारंभ दिनांक:</string>
+    <string name="startTime">प्रारंभ समय:</string>
+    <string name="bioMassQuantity">बायोमास मात्रा:</string>
+    <string name="bioMassQuality">बायोमास ग्रेड:</string>
+    <string name="enter">सबमिट करें</string>
+    <string name="enterBioMassQuantity">बायोमास मात्रा दर्ज करें:</string>
+    <string name="enterBioMassHint">मात्रा दर्ज करेंं</string>
+    <string name="machineId">मशीन संख्या:</string>
+    <string name="batchNo">बैच संख्या:</string>
+    <string name="endDate">समाप्ति दिनांक:</string>
+    <string name="endTime">समाप्ति समय:</string>
+    <string name="oilQuantity">तेल मात्रा:</string>
+    <string name="submit">सबमिट करें</string>
+    <string name="farmerList">किसान लिस्त</string>
+    <string name="pgList">पीजी लिस्त</string>
+    <string name="totalOilQuantity">कुल तेल मात्रा: </string>
+    <string name="totalOil">कुल तेल मात्रा</string>
+    <string name="farmerId">किसान पहचान:</string>
+    <string name="farmerId2">किसान पहचान</string>
+    <string name="farmerIdHint">किसान पहचान</string>
+    <string name="whoops">ओह!</string>
+    <string name="netWorkError">कोई इंटरनेट कनेक्शन नहीं मिला। अपने कनेक्शन की जाँच करें और पुनः प्रयास करें।</string>
+    <string name="tryAgain">पुनः प्रयास करें</string>
+    <string name="phoneNo">फोन नंबर:</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="emailId">ईमेल आईडी</string>
+    <string name="orgName">संस्था का नाम</string>
+    <string name="orgId">संस्था आईडी</string>
+    <string name="paymentDueFarmerList">भुगतान देय किसान सूची</string>
+    <string name="paidFarmerListSearch">भुगतान किए गए किसान सूची ढूंढें</string>
+    <string name="afterSubmit">सफलतापूर्वक भेजा गया।</string>
+    <string name="continueBtn">जारी रखना</string>
+    <string name="startNewBatch">क्या आप सुनिश्चित हैं, आप बैच प्रारंभ करना चाहते हैं?</string>
+    <string name="startExitingBatch">क्या आप सुनिश्चित हैं, आप बैच समाप्त करना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="logoutBtn">लॉग आउट</string>
+    <string name="logout">क्या आप लॉग आउट करना चाहते हैं?</string>
+    <string name="alertMsg">क्या आप बाहर निकलना चाहते हैं?</string>
+    <string name="login">क्या आप लॉग इन करना चाहते हैं?</string>
+    <string name="wrongFarmer">गलत किसान आईडी, कृपया पुनः प्रयास करें।</string>
+    <string name="harvesting">फसल कटाई</string>
+    <string name="dueAmount">देय राशि:</string>
+    <string name="clickHereToPaid">भुगतान करने के लिए यहां क्लिक करें।</string>
+    <string name="selectDateHint">अपनी तिथि चुनें।</string>
+    <string name="enterQuantityHint">मात्रा दर्ज करें।</string>
+    <string name="userIdHint">यूज़र आईडी दर्ज करें</string>
+    <string name="orgIdHint">संस्था आईडी</string>
+    <string name="passwordHint">अपना पासवर्ड दर्ज करें</string>
+    <string name="loginBtn">लॉग इन करें</string>
+    <string name="paidFarmerSearch">प्रदत्त किसान सूची</string>
+    <string name="paidFarmerList">प्रदत्त किसान ढूंढेंं</string>
+    <string name="submitAlert">क्या आप वाकई सबमिट करने के इच्छुक हैं?</string>
+    <string name="dueFarmerList">बकाया किसानों की सूची</string>
+    <string name="paymentSubmit">भुगतान जमा करें</string>
+    <string name="enterAmountHint">दर्ज करें अपना राशि</string>
+    <string name="enterRefNoHint">संदर्भ संख्या दर्ज करें</string>
+    <string name="userID">यूज़र आईडी</string>
+    <string name="pgName">पीजी नाम:</string>
+    <string name="id">आईडी: </string>
+    <string name="price">कीमत: </string>
+    <string name="address">स्थान: </string>
+    <string name="address2">स्थान</string>
+    <string name="farmerProfile">किसान प्रोफाइल</string>
+    <string name="forMoreInfoToClickHere">अधिक जानकारी के लिए यहां क्लिक करें</string>
+    <string name="exitingBatchList">वर्तमान चल रहे बैच सूची</string>
+    <string name="quantity">मात्रा</string>
+    <string name="cultivation">खेती करना</string>
+    <string name="farmer">किसान</string>
+    <string name="processing">प्रोसेसिंग</string>
+    <string name="retry">पुन: प्रयास करें</string>
+    <string name="noOrderListInsert">कोई आदेश सूची सम्मिलित नहीं</string>
+    <string name="pleaseEnterFarmerId">कृपया किसान आईडी दर्ज करें</string>
+
+    <string name="lastCutting">अंतिम कटिंग:</string>
+    <string name="nextCutting">अगली कटिंग:</string>
+    <string name="lastCuttingDate">अंतिम कटिंग डेट</string>
+    <string name="nextCuttingDate">अगली कटिंग डेट</string>
+    <string name="lastIrrigationDate">अंतिम इरीगेशन डेट</string>
+    <string name="lastFertigationDate">अंतिम फर्टिगेशन डेट</string>
+    <string name="cuttingDate">कटिंग डेट: </string>
+
+    <string name="selectDate">दिनांक का चयन करें</string>
+    <string name="selectAny">सेलेक्ट ऑप्शन</string>
+    <string name="schedule">सचेडूले</string>
+    <string name="getterThen2">२ से ज्यादा किसान</string>
+    <string name="getterThen3">३ से कम किसान</string>
+    <string name="currentDate">आज की तारिख</string>
+    <string name="calHarvesting">कटाई</string>
+
+    <string name="dec">dcml</string>
+    <string name="acre">acre</string>
+    <string name="ton">ton</string>
+    <string name="liter">lts</string>
+    <string name="kg">kg</string>
+    <!--    hindiEnd-->
+    <string name="home">होम</string>
+    <string name="communication">कम्युनिकेशन</string>
+    <string name="privacy">प्राइवेसी</string>
+    <string name="call">Call</string>
+
+    <string name="enterValidUserId">कृपया अपना यूजर ईद दर्ज करें</string>
+    <string name="enterValidPassword">कृपया अपना पासवर्ड दर्ज करें</string>
+    <string name="village">विलेज: </string>
+    <string name="block">ब्लॉक: </string>
+    <string name="dist">डिस्ट्रिक्ट: </string>
+    <string name="state">स्टेट: </string>
+    <string name="pinCode">पिनकोड: </string>
+    <string name="noDataFound">कोई डेटा नहीं मिला</string>
+    <string name="pleaseSelectGrade">कृपया ग्रेड चुनें</string>
+
+    <string name="open">खोलना</string>
+    <string name="close">बंद करे</string>
+
+    <string-array name="selectWorkList">
+        <item>इरीगेशन</item>
+        <item>फर्टिगेशन</item>
+        <item>फील्ड विजिट</item>
+        <item>कोडाइ</item>
+    </string-array>
+
+    <string-array name="selectBiomassQuality">
+        <item>ग्रेड चुनें</item>
+        <item>ग्रेड A</item>
+        <item>ग्रेड B</item>
+        <item>ग्रेड C</item>
+    </string-array>
+</resources>
